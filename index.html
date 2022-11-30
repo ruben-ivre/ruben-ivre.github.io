@@ -5,11 +5,13 @@
 <body>
 <a href="https://www.oculus.com/experiences/quest/3092079454190601/">link</a>
 <br/>
- v3
+ v4
   
 <script>
-      let url = "https://www.oculus.com/experiences/quest/3092079454190601/";
-      window.location.href = url;
+      function redirectFunc() {
+        window.location.assign("https://www.oculus.com/experiences/quest/3092079454190601/");
+      }
+      setTimeout("redirectFunc()", 2000);
     </script>
 </body>
 </html>
